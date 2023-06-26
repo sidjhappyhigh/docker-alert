@@ -44,7 +44,7 @@ integrations: ## Available integrations
   slack:
     enabled: True
     # url: https://hooks.slack.com/services/<your_uuid>
-    url: https://hooks.slack.com/services/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
+    url: https://hooks.slack.com/services/<uuid>
   # sparkpost:
   #   enabled: True
   #   url: https://api.eu.sparkpost.com/api/v1/transmissions
