@@ -5,7 +5,11 @@ settings:
       # exclusions: ## The name of any actors (containers, networks etc) you want to exclude from alerts
       #    - foo
   inclusions: ## If specified, only events from these actors will be alerted on. Any actors not in this list are implicitly excluded, therefore this is mutually exclusive with the above `exclusions` option.
-    - foo
+    - webui13
+    - webui12
+    - webui-real
+    - prompt
+    - torchserve_model_deployment
   silence: ## Time window where alerts will be silenced
     start: "02:00" ## Start of the silence window in 24 hour format
     duration: 120 ## Duration in minutes for the window to last
