@@ -21,7 +21,6 @@ events: ## The Docker event types that you want to trigger alerts for
     - destroy
     - create
     - die
-    - exec_die
     - kill
     - pause
     - rename
@@ -52,5 +51,5 @@ integrations: ## Available integrations
   slack:
     enabled: True
     # url: https://hooks.slack.com/services/<your_uuid>
-    url: https://hooks.slack.com/services/<uuid>
-    # docker run -d --name healthcheck -v /var/run/docker.sock:/var/run/docker.sock  -v /home/docker-alert/conf.yml:/app/conf.yml quaide/dem:late
+    url: 
+    # docker run -d --name healthcheck -v /var/run/docker.sock:/var/run/docker.sock  -v /home/docker-alert/conf.yml:/app/conf.yml quaide/dem:latest
