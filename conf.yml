@@ -45,15 +45,4 @@ integrations: ## Available integrations
     enabled: True
     # url: https://hooks.slack.com/services/<your_uuid>
     url: https://hooks.slack.com/services/<uuid>
-  # sparkpost:
-  #   enabled: True
-  #   url: https://api.eu.sparkpost.com/api/v1/transmissions
-  #   key: your_key
-  #   from: dem@dkrmon.io
-  #   subject: Docker Event Monitor
-  #   recipients:
-  #     - john.smith@example.com
-  #     - mary.collins@example.com
-  # discord:
-  #   enabled: True
-  #   url: https://discordapp.com/api/webhooks/<your_uuid>
+    # docker run -d --name healthcheck -v /var/run/docker.sock:/var/run/docker.sock  -v /home/docker-alert/conf.yml:/app/conf.yml quaide/dem:late
